@@ -29,7 +29,7 @@ align-items: left;
     top: 150px;
 }
 .animate{
-    animation: jump 0.3s linear;
+    animation: jump 1s linear;
 }
 @keyframes jump{
     0%{top: 150px;}
@@ -45,7 +45,7 @@ align-items: left;
     position: relative;
     top: 130px;
     left: 500px;
-    animation: block 10s infinite linear;
+    animation: block 5s infinite linear;
 }
 @keyframes block{
     0%{left: 500px}
